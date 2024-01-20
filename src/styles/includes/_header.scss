@@ -1,0 +1,47 @@
+.bg-image {
+  background-image: url("/./images/banner.png");
+  background-size: cover;
+  height: 100vh;
+}
+//section layout
+.submit {
+  border: 1px solid;
+  color: #fff;
+  background-color: #f93154;
+  border-radius: 1px;
+  padding: 0 20px;
+  &:hover {
+    background-color: #f80c35;
+  }
+}
+.image {
+  display: none;
+  @include media-min-md {
+    display: inherit;
+    display: flex;
+    align-items: center;
+  }
+  .relationship {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.login_page {
+  background-color: #74ebd5;
+  background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+  @include media-min-md{
+    display: flex;
+   align-items: center;
+  }
+  .container{
+    padding:80px 15px;
+    height:100%;
+    @include media-min-md{
+      width:80%;
+    }
+    
+  }
+}
+
+
